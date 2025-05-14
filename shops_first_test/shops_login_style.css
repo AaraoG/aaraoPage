@@ -1,0 +1,76 @@
+body{
+    font-family: "calibri"; /**/
+    background-color: #DDE7F4;
+}
+
+.box{
+    max-width: 400px;
+    max-height: 360px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 140px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 50px;
+    color: #3e70f7;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.title{
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    height: 40px;
+    margin-bottom: 30px;
+    font-family: "calibri";
+    font-size: 40px; 
+    border-bottom: 2px #000 solid;
+    text-transform: uppercase;
+}
+.User{
+    text-align: center;
+    width: 370px;
+    border: 2px solid #000000;
+    margin-bottom: 10px;;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.butt{
+    width: 30%;
+    height: 25px;
+    border: none;
+    background-color: #5b92ff;
+    color: #ffffff;
+}
+
+.idk{
+    text-align: right;
+    text-transform: uppercase;
+    border-bottom: 2px #000 solid;
+    
+}
+.butt:hover{
+    background-color: #0042ff ;
+    transition: background-color 0.5s ease-in-out;
+    
+}
+
+
+.User:hover{
+    background-color: #eeeeee;
+    border: 4px solid #2bcf87;
+}
+
+.box a{
+    color: #2b51b5;
+    text-decoration: none;
+}
+
+.box a:hover{
+    color: #656565;
+    text-decoration: underline;
+}
